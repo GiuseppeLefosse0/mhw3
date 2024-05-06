@@ -1,0 +1,271 @@
+
+body{
+   font-family: "Montserrat", sans-serif;
+}
+nav {
+   background-color: whitesmoke;
+   padding: 15px 0;
+   position:fixed;
+   top: 0px;
+   left: 0px;
+   width:100%;
+   z-index: 2;
+ }
+ .container-menu{
+  cursor: pointer;
+  margin-left: 10px;
+ }
+#menu-navbar{
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+
+}
+#vertical-menu{
+  width: 200px;
+  background-color: white;
+}
+#vertical-menu a{
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px; 
+  text-decoration: none;
+}
+#vertical-menu a:hover{
+background-color: grey;
+}
+.menu-hidden{
+  display: none;
+}
+ .nav_nome{
+  color: black;
+ }
+
+ #navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav_link{
+  display: flex;
+  align-items: center;
+  margin-left: 0%;
+}
+.front-nome{
+  display: flex;
+  align-items: center;
+  font-size: 1.6vw;
+}
+.nav-logo1{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.nav-end{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bell{
+  width: 25px;
+  height: 25px;
+}
+.nav-logo2{
+  width: 25px;
+  height: 25px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+ li{
+  display: flex;
+   margin-left: 5px;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  background-image: url('immagini/home/header-img.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 470px;
+  margin-top: 100px;
+ }
+ .header-content{
+  position:relative;
+ }
+
+.piani {
+  background-color: rgba(13, 7, 7, 0.6);
+   border-radius: 10px;
+   padding: 20px;
+   top:280px;
+   left: 20px;
+   margin: 0px 0px 25px 20px;
+}
+#search_content{
+  margin-bottom: 50px;
+}
+
+.piani-int{
+  color: white;
+  margin-bottom: 10px;
+}
+.piani-link {
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  border: 5px solid white;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.piani-link:hover{
+  transform: scale(1.2);
+}
+.piani-login{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  opacity:1;
+  margin-top: 10px;
+}
+.login-link{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+ section .section-intro, #playlist-view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+ }
+
+ #playlist-view{
+  background-color: whitesmoke;
+  height: 300px;
+  width: 700px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+
+ }
+ .playlist-item{
+  margin: 10px;
+  border: 1px solid slategray;
+  padding: 5px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+.exercise-view{
+  background-color: whitesmoke;
+  height: 300px;
+  width: 700px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+ .section-img{
+  width: 700px;
+ }
+ #p1{
+  margin: 10px 25%;
+ }
+ .hidden-p1{
+  display: none;
+ }
+
+ .leggi-di-più{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+ }
+ .p2-sito{
+  font-weight: bold;
+  margin-bottom: 10px;
+ }
+ .sito-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .descr-sx{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+ }
+ .descr-dx{
+  margin-left: 30px;
+ }
+ .descr-sx,.descr-dx{
+  width: 200px;
+  height: 200px;
+ }
+ .descr-titolo{
+  font-weight: bold;
+ }
+ .comp-dx{
+  display:flex;
+  justify-content: flex-end;
+ }
+#sito-img{
+  width:450px;
+  height:400px;
+}
+ footer {
+  margin: 0px;
+  background-color: whitesmoke;
+  height: 70px;
+ }
+ .footer-img{
+  width: 15px;
+  height: 15px;
+ }
+ .footer-p{
+  text-align: center;
+ }
+ .f-s-p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+ .pricing{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.support{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.flex-help{
+  display: flex;
+justify-content: flex-end;
+  width: 100%;
+}
+#assistenza{
+background-color: rgb(0,96,99);
+border-radius: 30px 8px 30px 30px;
+color: white;
+padding:8px;
+margin-right: 0px;
+position: fixed;
+}
+.ass-link{
+  color: white;
+  text-decoration: none;
+}
+.assistenza-img{
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+}
